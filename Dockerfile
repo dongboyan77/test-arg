@@ -1,0 +1,3 @@
+FROM centos/ruby-22-centos7
+ARG PORT=8080
+EXPOSE $PORT
