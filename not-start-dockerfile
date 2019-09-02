@@ -1,0 +1,3 @@
+ENV START first
+ARG tag=latest
+FROM busybox:${tag}

@@ -1,0 +1,5 @@
+FROM busybox AS build
+ARG FOO
+ARG BAR
+ARG BAZ=bazcontent
+RUN echo -n $HTTP_PROXY::$NO_PROXY::$FOO::$BAR::$BAZ > /out
