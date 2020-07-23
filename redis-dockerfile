@@ -1,0 +1,5 @@
+FROM debian
+RUN sleep 5
+RUN sleep 45
+RUN sleep 60
+RUN sleep 100
