@@ -1,2 +1,1 @@
 FROM quay.io/quay/busybox
-RUN sleep 10
